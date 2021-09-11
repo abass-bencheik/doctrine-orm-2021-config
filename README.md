@@ -3,8 +3,12 @@ It's about solving the following issue.  Fatal error: Uncaught RuntimeException:
 Learn more on the [official website](https://www.doctrine-project.org/projects/doctrine-orm/en/current/tutorials/getting-started.html)
 
 # Test
-✔️ ```composer install ```
+```fish
+$ git clone https://github.com/abass-bencheik/doctrine-orm-2021-config.git
+$ cd doctrine-orm-2021-config
 
-✔️ ``` vendor/bin/doctrine orm:schema-tool:create ```
-
-✔️ ``` vendor/bin/doctrine orm:schema-tool:update --force ```
+# This comes from the official documentation 
+$ composer install
+$ vendor/bin/doctrine orm:schema-tool:create
+$ vendor/bin/doctrine orm:schema-tool:update --force 
+```
